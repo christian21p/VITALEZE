@@ -150,21 +150,7 @@
             </div>
         </section>
 
-        <!-- Reseñas -->
-        <section id="resenas" class="reviews-section section-padding">
-            <div class="container">
-                <div class="reviews-container" id="reviews-container">
-                    <div class="section-header text-center">
-                        <h2 class="section-title">Lo que dicen de nosotros</h2>
-                    </div>
-                    <div class="reviews-slider" id="reviews-slider">
-                        <div class="empty-state text-center">
-                            <p>¡Sé el primero en dejarnos tu reseña!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
         <!-- Frase Final -->
         <section class="banner-final text-center">
@@ -220,7 +206,6 @@
             </div>
             <div class="modal-tabs">
                 <button class="tab-btn active" data-target="admin-productos">Productos</button>
-                <button class="tab-btn" data-target="admin-resenas">Reseñas</button>
             </div>
             <div class="modal-body">
                 <!-- Tab Productos -->
@@ -268,28 +253,6 @@
                 </div>
 
 
-                <!-- Tab Reseñas -->
-                <div id="admin-resenas" class="tab-content">
-                    <form id="form-resenas" class="admin-form mb-4">
-                        <div class="form-group">
-                            <label>Nombre del Cliente</label>
-                            <input type="text" id="res-nombre" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Opinión</label>
-                            <textarea id="res-texto" rows="3" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label>Estrellas (1-5)</label>
-                            <input type="number" id="res-estrellas" min="1" max="5" value="5" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100 mt-2">Añadir Reseña</button>
-                    </form>
-                    <div class="admin-list">
-                        <h4>Reseñas Actuales</h4>
-                        <ul id="admin-lista-resenas" class="item-list"></ul>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
