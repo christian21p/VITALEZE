@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vitaleze 🌾 – Alimentación saludable a tu alcance</title>
-    <meta name="description" content="Opciones saludables y nutritivas para tu día a día. Hacé tu pedido de budines, barras, galletas y más.">
+    <meta name="description"
+        content="Opciones saludables y nutritivas para tu día a día. Hacé tu pedido de budines, barras, galletas y más.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
     <!-- Header / Navbar -->
@@ -31,7 +36,8 @@
                 <a href="#nosotros">Sobre Nosotros</a>
                 <a href="#productos">Catálogo</a>
                 <a href="#pedidos">Pedidos y Envíos</a>
-                <a href="https://wa.me/5493512755594" target="_blank" class="btn btn-primary nav-btn"><i class="fa-brands fa-whatsapp"></i> Contactar</a>
+                <a href="https://wa.me/5493512755594" target="_blank" class="btn btn-primary nav-btn"><i
+                        class="fa-brands fa-whatsapp"></i> Contactar</a>
             </nav>
         </div>
     </header>
@@ -44,9 +50,11 @@
                 <div class="hero-content">
                     <span class="badge">Nuevo ciclo de pedidos abierto 🚀</span>
                     <h1>Alimentación saludable a <span class="text-gradient">tu alcance</span></h1>
-                    <p>Opciones nutritivas para tu día a día. Budines, barras proteicas, panadería integral y más, listos para recargar tu energía.</p>
+                    <p>Opciones nutritivas para tu día a día. Budines, barras proteicas, panadería integral y más,
+                        listos para recargar tu energía.</p>
                     <div class="hero-buttons">
-                        <a href="https://wa.me/5493512755594?text=Hola%20Vitaleze,%20quiero%20hacer%20un%20pedido%20🌾" target="_blank" class="btn btn-primary btn-lg">
+                        <a href="https://wa.me/5493512755594?text=Hola%20Vitaleze,%20quiero%20hacer%20un%20pedido%20🌾"
+                            target="_blank" class="btn btn-primary btn-lg">
                             Hacer pedido por WhatsApp <i class="fa-solid fa-arrow-right"></i>
                         </a>
                         <a href="#productos" class="btn btn-outline btn-lg">Ver Catálogo</a>
@@ -54,8 +62,9 @@
                 </div>
                 <div class="hero-image-wrapper">
                     <!-- The image will be dynamically set or injected, use a placeholder or local asset -->
-                    <img src="./assets/hero-demo.jpg" alt="Productos saludables Vitaleze" id="hero-img" class="hero-image glassmorphism">
-                    
+                    <img src="./assets/hero-demo.jpg" alt="Productos saludables Vitaleze" id="hero-img"
+                        class="hero-image glassmorphism">
+
                     <!-- Floating aesthetic elements -->
                     <div class="floating-card c-1 glassmorphism">
                         <i class="fa-solid fa-leaf text-green"></i> 100% Fresco
@@ -77,8 +86,11 @@
                     <div class="about-text">
                         <h2 class="section-title">Sobre Nosotros</h2>
                         <h3 class="section-subtitle">Tu bienestar es nuestra pasión</h3>
-                        <p><strong>Vitaleze 🌾</strong> es un lugar pensado para acercarte opciones saludables y nutritivas. Ofrecemos productos ideales para desayunos, meriendas o esos momentos donde necesitas un plus de energía.</p>
-                        <p>Trabajamos con productos frescos y de distintas marcas para que puedas elegir lo que más te guste, asegurando siempre la mejor calidad en cada bocado.</p>
+                        <p><strong>Vitaleze 🌾</strong> es un lugar pensado para acercarte opciones saludables y
+                            nutritivas. Ofrecemos productos ideales para desayunos, meriendas o esos momentos donde
+                            necesitas un plus de energía.</p>
+                        <p>Trabajamos con productos frescos y de distintas marcas para que puedas elegir lo que más te
+                            guste, asegurando siempre la mejor calidad en cada bocado.</p>
                         <ul class="about-features">
                             <li><i class="fa-solid fa-check-circle"></i> Ingredientes seleccionados</li>
                             <li><i class="fa-solid fa-check-circle"></i> Opciones Keto y sin azúcar</li>
@@ -96,7 +108,7 @@
                     <h2 class="section-title">Nuestro Catálogo</h2>
                     <p>Explora nuestras deliciosas opciones y elegí tus favoritos.</p>
                 </div>
-                
+
                 <!-- Filters -->
                 <div class="product-filters" id="product-filters">
                     <button class="filter-btn active" data-filter="all">Todos</button>
@@ -106,6 +118,20 @@
                 <!-- Product Grid -->
                 <div class="product-grid" id="product-grid">
                     <!-- Los productos se renderizan aquí desde JS -->
+                </div>
+
+                <!-- Mensaje catálogo -->
+                <div class="catalog-notice">
+                    <div class="catalog-notice-inner glassmorphism">
+                        <i class="fa-solid fa-fire-flame-curved notice-icon"></i>
+                        <div class="notice-text">
+                            <p class="notice-title">Estos son nuestros productos más solicitados 🔥</p>
+                            <p class="notice-subtitle">Para ver el catálogo completo con todos nuestros productos, ¡consultanos por WhatsApp!</p>
+                        </div>
+                        <a href="https://wa.me/5493512755594?text=Hola%20Vitaleze,%20quiero%20ver%20el%20cat%C3%A1logo%20completo%20%F0%9F%8C%BE" target="_blank" class="btn btn-primary notice-btn">
+                            <i class="fa-brands fa-whatsapp"></i> Ver más productos
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -120,7 +146,8 @@
                             <i class="fa-regular fa-calendar-check text-green"></i>
                         </div>
                         <h3>Calendario de Pedidos</h3>
-                        <p>Para asegurar la máxima frescura de nuestros productos, trabajamos con el siguiente cronograma:</p>
+                        <p>Para asegurar la máxima frescura de nuestros productos, trabajamos con el siguiente
+                            cronograma:</p>
                         <ul class="schedule-list">
                             <li><strong>Productos Keto:</strong> pedidos hasta miércoles 12:00 AM</li>
                             <li><strong>Snacks y otros:</strong> pedidos los lunes</li>
@@ -143,8 +170,10 @@
                             <i class="fa-brands fa-whatsapp text-white"></i>
                         </div>
                         <h3 class="text-white">¿Listos para pedir?</h3>
-                        <p class="text-white">Podés ver el catálogo completo en nuestro Instagram o solicitado por WhatsApp. Realizá tu pedido y coordinamos.</p>
-                        <a href="https://wa.me/5493512755594" target="_blank" class="btn btn-white mt-4">Hablar al 3512755594</a>
+                        <p class="text-white">Podés ver el catálogo completo en nuestro Instagram o solicitado por
+                            WhatsApp. Realizá tu pedido y coordinamos.</p>
+                        <a href="https://wa.me/5493512755594" target="_blank" class="btn btn-white mt-4">Hablar al
+                            3512755594</a>
                     </div>
                 </div>
             </div>
@@ -155,7 +184,8 @@
         <!-- Frase Final -->
         <section class="banner-final text-center">
             <div class="container">
-                <h2 class="text-gradient">Probá algo diferente y sumá vitalidad y salud a tu rutina diaria con Vitaleze 🌾</h2>
+                <h2 class="text-gradient">Probá algo diferente y sumá vitalidad y salud a tu rutina diaria con Vitaleze
+                    🌾</h2>
             </div>
         </section>
 
@@ -180,8 +210,10 @@
                 <div class="footer-contact">
                     <h4>Contacto</h4>
                     <ul>
-                        <li><a href="https://wa.me/5493512755594" target="_blank"><i class="fa-brands fa-whatsapp"></i> +54 9 351 275-5594</a></li>
-                        <li><a href="https://www.instagram.com/vitaleze.ar/" target="_blank"><i class="fa-brands fa-instagram"></i> @vitaleze.ar</a></li>
+                        <li><a href="https://wa.me/5493512755594" target="_blank"><i class="fa-brands fa-whatsapp"></i>
+                                +54 9 351 275-5594</a></li>
+                        <li><a href="https://www.instagram.com/vitaleze.ar/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i> @vitaleze.ar</a></li>
                     </ul>
                 </div>
             </div>
@@ -192,7 +224,8 @@
     </footer>
 
     <!-- Botón Whatsapp Flotante -->
-    <a href="https://wa.me/5493512755594" class="whatsapp-float js-whatsapp-float" target="_blank" aria-label="Chat en WhatsApp">
+    <a href="https://wa.me/5493512755594" class="whatsapp-float js-whatsapp-float" target="_blank"
+        aria-label="Chat en WhatsApp">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
@@ -200,4 +233,5 @@
     <script src="./js/data.js"></script>
     <script src="./js/app.js"></script>
 </body>
+
 </html>

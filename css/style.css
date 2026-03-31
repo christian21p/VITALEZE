@@ -543,6 +543,61 @@ img {
     margin-bottom: 1rem;
 }
 
+/* Catalog Notice */
+.catalog-notice {
+    margin-top: var(--spacing-lg);
+    width: 100%;
+}
+
+.catalog-notice-inner {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 2.5rem;
+    border-radius: var(--border-radius-lg);
+    background: linear-gradient(135deg, rgba(74, 124, 89, 0.06), rgba(212, 163, 115, 0.1));
+    border: 1px solid rgba(74, 124, 89, 0.15);
+}
+
+.notice-icon {
+    font-size: 2.5rem;
+    color: var(--color-energy);
+    flex-shrink: 0;
+}
+
+.notice-text {
+    flex: 1;
+}
+
+.notice-title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: var(--color-text);
+    margin-bottom: 0.25rem;
+}
+
+.notice-subtitle {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+}
+
+.notice-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .catalog-notice-inner {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    .notice-btn {
+        width: 100%;
+    }
+}
+
 /* =========================================
    INFO SECTION (PEDIDOS Y ENVIOS)
    ========================================= */
